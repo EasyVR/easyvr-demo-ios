@@ -14,7 +14,7 @@ Check out the tutorial video to know how to create a VR content in Youtube: http
 
 After you subscribe EasyVR, you should follow the youtube tutorial to create the VR content. You could click to share and copy the link, for example, https://www.360easyvr.com/gallery/vrview/359.
 
-Change the link to https://www.360easyvr.com/vr/359 and then replace the below line in the `MainActivity.java` file
+Change the link to https://www.360easyvr.com/vr/359 and then replace the below line in the `ViewController.swift` file
 ```SWIFT
 /** Change your VR content in here **/
 let request = URLRequest(url: URL(string: "https://www.360easyvr.com/vr/359?scene_id=860&features[]=auto-rotate")!)
